@@ -1,0 +1,23 @@
+.productBox {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.productHeader {
+    height: 200px;
+    & img {
+        height: 100%;
+        width: 100%;
+    }
+}
+.productBody {
+    padding: 10px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.itemTitle {
+
+}
